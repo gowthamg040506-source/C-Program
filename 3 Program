@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int s1, s2, s3, s4, s5, total;
+    float average;
+
+    // Read marks of 5 subjects
+    printf("Enter marks of 5 subjects: ");
+    scanf("%d %d %d %d %d", &s1, &s2, &s3, &s4, &s5);
+
+    // Calculate total
+    total = s1 + s2 + s3 + s4 + s5;
+
+    // Calculate average
+    average = total / 5.0;
+
+    // Display results
+    printf("Total = %d\n", total);
+    printf("Average = %.2f\n", average);
+
+    return 0;
+}
